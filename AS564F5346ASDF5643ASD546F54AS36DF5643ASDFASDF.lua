@@ -700,7 +700,7 @@ end)
     end)
 
     local testingsection4 = testingtab:CreateSection('Player')
-    testingsection4:CreateToggle('Max Speed','Get Maximum Speed Without Stamina.',function(bool)
+    testingsection4:CreateToggle('Max Speed','Get Maximum Speed Without Shift.',function(bool)
         if bool == true then
             local speedval = 30
 _G.speedloop = true
